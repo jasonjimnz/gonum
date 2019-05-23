@@ -15,6 +15,9 @@ os:
  - osx
  - windows
 
+gobuild_args:
+ - "-mod=readonly"
+
 env:
  global:
   - GO111MODULE=on
